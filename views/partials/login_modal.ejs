@@ -1,0 +1,46 @@
+<!-- Button trigger modal -->
+<div class="login-modal">
+<button type="button" class="btn btn-primary sign-nav" data-toggle="modal" data-target="#staticBackdrop">
+    Sign In
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header"> -->
+          <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="float-right">&times;</span>
+          </button>
+        <!-- </div> -->
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="modal-body">
+                    <div class="login-form">
+                        <form action="" method="post">
+                            <h2 class="text-center title-login">Welcome Back</h2>       
+                            <div class="form-group">
+                                <label for="email" class="label-login"> EMAIL ADDRESS</label>
+                                <input type="text" class="form-control" placeholder="Enter email address" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="label-login">PASSWORD</label>
+                                <input type="password" class="form-control mb-1" placeholder="Password" required="required">
+                                <a href="#" class="float-right mb-5" id="forgot-pw">Forgot Password?</a>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-block sign-modal">Sign In</button>
+                            </div>
+                            <!-- <div class="clearfix">
+                                <label class="float-left form-check-label"><input type="checkbox">Remember me</label>
+                            </div>         -->
+                        </form>
+                        <p class="text-center"><a href="#" class="create-account">Create an Account</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
